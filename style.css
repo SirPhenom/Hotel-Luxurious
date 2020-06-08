@@ -26,3 +26,13 @@ body {
 .pos-abs {
   position: absolute;
 }
+
+/* Style for mobile view*/
+
+@media (max-width: 768px) { 
+  .ltt{
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+ }
