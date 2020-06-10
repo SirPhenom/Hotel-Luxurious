@@ -10,10 +10,7 @@
     <!-- font awesome -->
     <!-- <script src="/js/all.js"></script> -->
     <!-- google fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- main css-->
     <link rel="stylesheet" href="./aa-style.css" />
   </head>
@@ -23,9 +20,7 @@
       <!-- nav section -->
       <nav class="navbar py-3 navbar-dark bg-transparent navbar-expand-sm">
         <!-- logo -->
-        <!-- <a href="#" class="navbar-brand text-uppercase"
-            ><img src="/assets/Logo/Logo 2-01.png" alt="" width="10%"></a
-            > -->
+
         <!-- nav toggler -->
         <button
           type="button"
@@ -38,19 +33,19 @@
         <!-- nav links -->
         <div class="collapse navbar-collapse" id="navbarLinks">
           <ul class="navbar-nav ml-auto font-weight-bold">
-            <li class="nav-item active">
+            <li class="nav-item active mx-3 text-uppercase">
               <a href="#" class="nav-link">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-3 text-uppercase">
               <a href="#" class="nav-link">Accommodation</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-3 text-uppercase">
               <a href="#" class="nav-link">Dinning</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-3 text-uppercase">
               <a href="#" class="nav-link">Contact</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-3 text-uppercase">
               <a
                 href="#"
                 class="nav-link text-uppercase border border-white p-2"
@@ -63,7 +58,7 @@
       <!-- nav section ends here -->
       <!-- header contents -->
       <div class="container-fluid">
-        <div class="row">
+        <div class="row mt-5">
           <!-- Header's text div -->
           <div class="col-12 mt-5">
             <div class="col-md-6 mx-auto aa-pos-rel">
@@ -79,11 +74,24 @@
             </div>
           </div>
           <!-- Header's text div ends here-->
+          <div class="mx-auto text-dark text-center font-weight-bold bg-light mt-5">
+            <a href="#" style="text-decoration: none;">
+              <span class="ml-2">Choose your hotel | Check in - Check out</span>
+              <span class="btn aa-btn-luxuria p-3 rounded-0" >
+                Check Availability
+              </span>
+            </a>
+          </div>
         </div>
       </div>
       <!-- header contents ends here -->
     </section>
     <!-- header ends here -->
+    <!-- covid pandemic link -->
+    <p class="text-center mt-1" style="font-size: 80%;">
+      For information and updates regarding the COVID-19, please <a href="">visit</a> this page.
+    </p>
+    <!-- covid pandemic link ends here -->
     <!-- Welcome to luxury/ the second section  -->
     <section id="second" class="py-3">
       <div class="container">
@@ -224,15 +232,19 @@
 
             <!-- button beside the tower image on lg/md screen, it gets hidden on small screen -->
             <button
-              class="btn aa-btn-luxuria px-3 text-light d-none d-md-block aa-pos-abs"
+              class="btn aa-btn-luxuria px-3 rounded-0 text-light text-left d-none d-md-block aa-pos-abs"
               style="top: 40%; left: 70%;"
             >
-              <h3 class="text-uppercase font-weight-bold">
+            <!-- the texts inside the button -->
+              <h3 class="font-weight-bold">
                 Book your Room
               </h3>
-              <p class="text-lowercase">
-                Looking for luxury room in Paris?<br />Book Now!
-              </p>
+              <div>
+                Looking for luxury room in Paris?<br />
+                <span class="text-uppercase font-weight-bold">
+                  Book Now!
+                </span>
+              </div>
             </button>
             <!-- button at the bottom of the tower on small screen, it gets hidden on large screen -->
             <img
@@ -243,14 +255,14 @@
             />
             <!-- button beside the tower image on lg/md screen, it gets hidden on small screen -->
             <button
-              class="btn aa-btn-luxuria px-3 text-light d-block d-md-none mt-3 mx-auto"
-            ><a href="#" class="text-light">
-              <p>
-                Looking for luxuria room in Paris?<br />
-                <span class="text-uppercase font-weight-bold" style="font-size: 130%;">
+              class="btn aa-btn-outline-luxuria d-block d-md-none mt-3 mx-auto"
+            ><a href="#" style="text-decoration: none; color: inherit;">
+              <div>
+                Looking for luxury room in Paris?<br />
+                <span class="text-uppercase font-weight-bold">
                   Book Now!
-                </span> 
-              </p>
+                </span>
+              </div>
             </a>
             </button>
           </div>
@@ -286,7 +298,11 @@
       </div>
     </section>
     <!-- fourth section ends here -->
-
+    <!-- footer section -->
+    <section id="footer">
+      <!-- footer goes here -->
+    </section>
+    <!-- end of footer section -->
     <!-- jQuery -->
     <script src="/js/jquery-3.4.1.min.js"></script>
     <!-- Bootstrap js -->
