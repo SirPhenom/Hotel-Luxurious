@@ -1,37 +1,44 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-
 #first {
   min-height: 100vh;
   background: linear-gradient(rgba(31, 33, 51, 0.4), rgba(11, 13, 35, 0.4)),
     url(./assets/Pictures/home-walpaper.jpg) center/cover no-repeat fixed;
 }
+
 .aa-btn-luxuria {
   background-color: #ff450b;
 }
+
 .aa-btn-luxuria:hover {
   background-color: #a52c07;
 }
+
 .aa-btn-outline-luxuria {
   border-color: #ff450b;
   background-color: transparent;
   color: black;
 }
+
 .aa-btn-outline-luxuria:hover {
   background-color: #ff450b;
 }
+
 .aa-bg-luxuria {
   background-color: #ff450b;
 }
+
 .aa-title-underline {
   width: 150px;
   height: 5px;
   margin: 0 auto;
 }
+
 .aa-pos-rel {
   position: relative;
 }
+
 .aa-pos-abs {
   position: absolute;
 }
