@@ -8,7 +8,7 @@
     <!-- Bootstrap Link -->
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <!-- font awesome -->
-    <!-- <script src="/js/all.js"></script> -->
+    <script src="/js/all.js"></script>
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- main css-->
@@ -20,7 +20,7 @@
       <!-- nav section -->
       <nav class="navbar py-3 navbar-dark bg-transparent navbar-expand-sm">
         <!-- logo -->
-
+        <a href="/index.htm" class="navbar-brand ml-md-5 text-uppercase font-weight-bold">Luxuria</a>
         <!-- nav toggler -->
         <button
           type="button"
@@ -33,22 +33,22 @@
         <!-- nav links -->
         <div class="collapse navbar-collapse" id="navbarLinks">
           <ul class="navbar-nav ml-auto font-weight-bold">
-            <li class="nav-item active mx-3 text-uppercase">
+            <li class="nav-item active mx-2 text-uppercase">
               <a href="#" class="nav-link">Home</a>
             </li>
-            <li class="nav-item mx-3 text-uppercase">
+            <li class="nav-item mx-2 text-uppercase">
               <a href="#" class="nav-link">Accommodation</a>
             </li>
-            <li class="nav-item mx-3 text-uppercase">
+            <li class="nav-item mx-2 text-uppercase">
               <a href="#" class="nav-link">Dinning</a>
             </li>
-            <li class="nav-item mx-3 text-uppercase">
+            <li class="nav-item mx-2 text-uppercase">
               <a href="#" class="nav-link">Contact</a>
             </li>
-            <li class="nav-item mx-3 text-uppercase">
+            <li class="nav-item mx-2 text-uppercase">
               <a
                 href="#"
-                class="nav-link text-uppercase border border-white p-2"
+                class="nav-link text-uppercase border-luxuria p-2"
                 >Book a room</a
               >
             </li>
@@ -75,12 +75,12 @@
           </div>
           <!-- Header's text div ends here-->
           <div class="mx-auto text-dark text-center font-weight-bold bg-light mt-5">
-            <a href="#" style="text-decoration: none;">
-              <span class="ml-2">Choose your hotel | Check in - Check out</span>
-              <span class="btn aa-btn-luxuria p-3 rounded-0" >
+            <span class="ml-2 d-none d-md-inline">Choose your hotel | Check in - Check out</span>
+            <span class="btn aa-btn-luxuria p-3 rounded-0">
+              <a href="#" style="text-decoration: none; color: white;">
                 Check Availability
+              </a>
               </span>
-            </a>
           </div>
         </div>
       </div>
@@ -98,9 +98,9 @@
         <div class="row">
           <!-- the heading goes here -->
           <div class="col">
-            <h1 class="font-weight-bold text-center">
+            <h3 class="font-weight-bold text-center display-md-4">
               Welcome to Luxuria
-            </h1>
+            </h3>
             <!-- this is the underline with css style of class aa-title-underline, and aa-bg-luxorius -->
             <div class="aa-title-underline aa-bg-luxuria"></div>
           </div>
@@ -138,7 +138,7 @@
         <!-- our hotels header and its underline-->
         <div class="row">
           <div class="col">
-            <h1 class="font-weight-bold">Our Hotels</h1>
+            <h2 class="font-weight-bold">Our Hotels</h2>
             <div
               class="aa-title-underline aa-bg-luxuria"
               style="margin: 0;"
@@ -268,10 +268,10 @@
           </div>
           <!-- tower image and its buttons ends here -->
           <!-- title and text starts here -->
-          <div class="col-12 mt-3">
+          <div class="col-12 mt-5">
             <!-- title, eiffel tower and its underline -->
             <div>
-              <h2 class="font-weight-bold">Eiffel Tower View</h2>
+              <h3 class="font-weight-bold">Eiffel Tower View</h3>
               <div
                 class="aa-title-underline aa-bg-luxuria"
                 style="margin: 0;"
@@ -299,7 +299,42 @@
     </section>
     <!-- fourth section ends here -->
     <!-- footer section -->
-    <section id="footer">
+    <section id="footer" class="bg-light text-dark">
+      <div class="container-fluid">
+        <div class="row py-5">
+          <div
+            class="aa-title-underline bg-dark"
+            style="margin: auto; width: 90%;"
+          ></div>
+          <div class="col-lg-11 mt-3 mx-auto d-md-flex">
+            <div class="col-md-3">
+              <h3>Luxuria Hotels</h3>
+              <ul class="list-inline">
+                <li class="li-inline-item mb-2">Luxuria Hotel, Paris</li>
+                <li class="li-inline-item mb-2">Luxuria Hotel, London</li>
+                <li class="li-inline-item mb-2">Luxuria Hotel, New York</li>
+                <li class="li-inline-item mb-2">Luxuria Hotel, Las Vegas</li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h3>Discovery</h3>
+              <ul class="list-inline">
+                <li class="li-inline-item mb-2">Explore Paris</li>
+                <li class="li-inline-item mb-2">Events/Meeting at Luxuria</li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h3>Luxuria Hotels</h3>
+              <ul class="list-inline">
+                <li class="li-inline-item mb-2">About</li>
+                <li class="li-inline-item mb-2">FAQ</li>
+                <li class="li-inline-item mb-2">Contact</li>
+                <li class="li-inline-item mb-2">Jobs</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- footer goes here -->
     </section>
     <!-- end of footer section -->

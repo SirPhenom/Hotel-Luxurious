@@ -51,3 +51,13 @@ body {
   background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.5)),
     center/cover no-repeat fixed;
 }
+
+.border-luxuria {
+  border: 1px solid #ff450b;
+}
+.border-luxuria:hover {
+  background-color: #ff450b;
+  color: white;
+
+  /* border: 1px solid #ff450b; */
+}
