@@ -10,55 +10,64 @@
     <!-- font awesome -->
     <script src="/js/all.js"></script>
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- main css-->
     <link rel="stylesheet" href="./aa-style.css" />
   </head>
   <body>
     <!-- Main Page -->
-    <section id="first" class="bg-secondary">
+    <nav
+      class="navbar bg-transparent navbar-dark fixed-top mb-3 navbar-expand-sm"
+    >
+      <!-- logo -->
+      <a
+        href="/index.htm"
+        class="navbar-brand ml-md-5 text-uppercase font-weight-bold"
+        >Luxuria</a
+      >
+      <!-- nav toggler -->
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarLinks"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- nav links -->
+      <div class="collapse navbar-collapse" id="navbarLinks">
+        <ul class="navbar-nav ml-auto font-weight-bold">
+          <li class="nav-item active mx-2 text-uppercase">
+            <a href="./index.htm" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item mx-2 text-uppercase">
+            <a href="./rooms.htm" class="nav-link">Accommodation</a>
+          </li>
+          <li class="nav-item mx-2 text-uppercase">
+            <a href="#" class="nav-link">Dinning</a>
+          </li>
+          <li class="nav-item mx-2 text-uppercase">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item mx-2 text-uppercase">
+            <a
+              href="/book-a-room.htm"
+              class="nav-link text-uppercase border-luxuria p-2"
+              >Book a room</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header id="homepage" class="bg-secondary">
       <!-- nav section -->
-      <nav class="navbar py-3 navbar-dark bg-transparent navbar-expand-sm">
-        <!-- logo -->
-        <a href="/index.htm" class="navbar-brand ml-md-5 text-uppercase font-weight-bold">Luxuria</a>
-        <!-- nav toggler -->
-        <button
-          type="button"
-          class="navbar-toggler"
-          data-toggle="collapse"
-          data-target="#navbarLinks"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- nav links -->
-        <div class="collapse navbar-collapse" id="navbarLinks">
-          <ul class="navbar-nav ml-auto font-weight-bold">
-            <li class="nav-item active mx-2 text-uppercase">
-              <a href="#" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item mx-2 text-uppercase">
-              <a href="#" class="nav-link">Accommodation</a>
-            </li>
-            <li class="nav-item mx-2 text-uppercase">
-              <a href="#" class="nav-link">Dinning</a>
-            </li>
-            <li class="nav-item mx-2 text-uppercase">
-              <a href="#" class="nav-link">Contact</a>
-            </li>
-            <li class="nav-item mx-2 text-uppercase">
-              <a
-                href="#"
-                class="nav-link text-uppercase border-luxuria p-2"
-                >Book a room</a
-              >
-            </li>
-          </ul>
-        </div>
-      </nav>
       <!-- nav section ends here -->
       <!-- header contents -->
       <div class="container-fluid">
-        <div class="row mt-5">
+        <div class="row py-5">
           <!-- Header's text div -->
           <div class="col-12 mt-5">
             <div class="col-md-6 mx-auto aa-pos-rel">
@@ -74,22 +83,27 @@
             </div>
           </div>
           <!-- Header's text div ends here-->
-          <div class="mx-auto text-dark text-center font-weight-bold bg-light mt-5">
-            <span class="ml-2 d-none d-md-inline">Choose your hotel | Check in - Check out</span>
+          <div
+            class="mx-auto text-dark text-center font-weight-bold bg-light mt-5"
+          >
+            <span class="ml-2 d-none d-md-inline"
+              >Choose your hotel | Check in - Check out</span
+            >
             <span class="btn aa-btn-luxuria p-3 rounded-0">
               <a href="#" style="text-decoration: none; color: white;">
                 Check Availability
               </a>
-              </span>
+            </span>
           </div>
         </div>
       </div>
       <!-- header contents ends here -->
-    </section>
+    </header>
     <!-- header ends here -->
     <!-- covid pandemic link -->
     <p class="text-center mt-1" style="font-size: 80%;">
-      For information and updates regarding the COVID-19, please <a href="">visit</a> this page.
+      For information and updates regarding the COVID-19, please
+      <a href="">visit</a> this page.
     </p>
     <!-- covid pandemic link ends here -->
     <!-- Welcome to luxury/ the second section  -->
@@ -211,6 +225,7 @@
               </div>
             </div>
           </div>
+        </div>
         <!-- images div ends here -->
         <!-- underline -->
         <div class="aa-title-underline bg-secondary" style="width: 40%;"></div>
@@ -235,16 +250,21 @@
               class="btn aa-btn-luxuria px-3 rounded-0 text-light text-left d-none d-md-block aa-pos-abs"
               style="top: 40%; right: 0;"
             >
-            <!-- the texts inside the button -->
-              <h3 class="font-weight-bold">
-                Book your Room
-              </h3>
-              <div>
-                Looking for luxury room in Paris?<br />
-                <span class="text-uppercase font-weight-bold">
-                  Book Now!
-                </span>
-              </div>
+              <a
+                href="./book-a-room.htm"
+                style="text-decoration: none; color: inherit;"
+              >
+                <!-- the texts inside the button -->
+                <h3 class="font-weight-bold">
+                  Book your Room
+                </h3>
+                <div>
+                  Looking for luxury room in Paris?<br />
+                  <span class="text-uppercase font-weight-bold">
+                    Book Now!
+                  </span>
+                </div>
+              </a>
             </button>
             <!-- button at the bottom of the tower on small screen, it gets hidden on large screen -->
             <img
@@ -256,14 +276,18 @@
             <!-- button beside the tower image on lg/md screen, it gets hidden on small screen -->
             <button
               class="btn aa-btn-outline-luxuria d-block d-md-none mt-3 mx-auto"
-            ><a href="#" style="text-decoration: none; color: inherit;">
-              <div>
-                Looking for luxury room in Paris?<br />
-                <span class="text-uppercase font-weight-bold">
-                  Book Now!
-                </span>
-              </div>
-            </a>
+            >
+              <a
+                href="./book-a-room.htm"
+                style="text-decoration: none; color: inherit;"
+              >
+                <div>
+                  Looking for luxury room in Paris?<br />
+                  <span class="text-uppercase font-weight-bold">
+                    Book Now!
+                  </span>
+                </div>
+              </a>
             </button>
           </div>
           <!-- tower image and its buttons ends here -->
@@ -332,6 +356,37 @@
                 <li class="li-inline-item mb-2">Jobs</li>
               </ul>
             </div>
+            <div class="col-md-3">
+              <div class="text-center">
+                <img src="/assets/Logo/Logo-01.png" alt="" width="50%" />
+                <div
+                  class="aa-title-underline bg-dark"
+                  style="margin: auto; width: 50%;"
+                ></div>
+                <div class="links mt-1">
+                  <div>Follow Us</div>
+                  <a href=""
+                    ><i class="fab fa-facebook mx-1 aa-text-luxuria"></i
+                  ></a>
+                  <a href=""
+                    ><i class="fab fa-twitter mx-1 aa-text-luxuria"></i
+                  ></a>
+                  <a href=""
+                    ><i class="fab fa-instagram mx-1 aa-text-luxuria"></i
+                  ></a>
+                  <a href=""
+                    ><i class="fab fa-linkedin mx-1 aa-text-luxuria"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="aa-title-underline bg-dark"
+            style="margin: auto; width: 90%;"
+          ></div>
+          <div class="col-10 mx-auto mt-3">
+            &copy Cielo 2020 Developed by <a href="">Ali A.T.</a>
           </div>
         </div>
       </div>

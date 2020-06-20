@@ -1,14 +1,26 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-#first {
+html {
+  scroll-behavior: smooth;
+}
+#homepage {
   min-height: 100vh;
   background: linear-gradient(rgba(31, 33, 51, 0.4), rgba(11, 13, 35, 0.4)),
     url(./assets/Pictures/home-walpaper.jpg) center/cover no-repeat fixed;
 }
+#book-a-room,
+#rooms {
+  min-height: 100vh;
+  background: linear-gradient(rgba(31, 33, 51, 0.4), rgba(11, 13, 35, 0.4)),
+    url(./assets/Pictures/book-a-room.jpg) center/cover no-repeat fixed;
+}
 
 .aa-btn-luxuria {
   background-color: #ff450b;
+}
+.aa-text-luxuria {
+  color: #ff450b !important;
 }
 
 .aa-btn-luxuria:hover {
@@ -26,7 +38,7 @@ body {
 }
 
 .aa-bg-luxuria {
-  background-color: #ff450b;
+  background-color: #ff450b !important;
 }
 
 .aa-title-underline {
@@ -51,7 +63,9 @@ body {
   background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.5)),
     center/cover no-repeat fixed;
 }
-
+.bg-black {
+  background-color: black !important;
+}
 .border-luxuria {
   border: 1px solid #ff450b;
 }
@@ -60,4 +74,22 @@ body {
   color: white;
 
   /* border: 1px solid #ff450b; */
+}
+.bg-darkblue {
+  background-color: #0b0d23;
+}
+.text-darkblue {
+  color: #0b0d23;
+}
+.x-navbar {
+  background-color: transparent !important;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.x-navbar.alt-color {
+  background-color: #141615 !important;
+}
+
+.cursor {
+  cursor: pointer;
 }

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Book A Room | Luxuria Hotel</title>
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <!-- font awesome -->
+    <script src="/js/all.js"></script>
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main css-->
+    <link rel="stylesheet" href="./aa-style.css" />
+    <style>
+      .border-luxuria {
+        background-color: orangered;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- nav section -->
+    <nav
+      class="navbar bg-transparent navbar-dark fixed-top mb-3 navbar-expand-sm"
+    >
+      <!-- logo -->
+      <a
+        href="/index.htm"
+        class="navbar-brand ml-md-5 text-uppercase font-weight-bold"
+        >Luxuria</a
+      >
+      <!-- nav toggler -->
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarLinks"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- nav links -->
+      <div class="collapse navbar-collapse" id="navbarLinks">
+        <ul class="navbar-nav ml-auto font-weight-bold">
+          <li class="nav-item mx-2 text-uppercase">
+            <a href="./index.htm" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item mx-2 text-uppercase">
+            <a href="./rooms.htm" class="nav-link">Accommodation</a>
+          </li>
+          <li class="nav-item mx-2 text-uppercase">
+            <a href="#" class="nav-link">Dinning</a>
+          </li>
+          <li class="nav-item mx-2 text-uppercase">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item active mx-2 text-uppercase">
+            <a
+              href="/book-a-room.htm"
+              class="nav-link text-uppercase border-luxuria p-2"
+              >Book a room</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- nav section ends here -->
+    <!-- Main Page -->
+    <header id="book-a-room" class="bg-secondary">
+      <!-- header contents -->
+      <div class="container-fluid">
+        <div class="row py-5">
+          <!-- Header's text div -->
+          <div class="col-12 mt-5">
+            <div class="col-md-6 mx-auto aa-pos-rel">
+              <div
+                class="bg-white aa-pos-abs"
+                style="left: 0; bottom: 0; width: 0.2rem; height: 100%;"
+              ></div>
+              <h1 class="font-weight-bold text-white ml-2">
+                Book<br />
+                Your Stay <br />
+                With US.
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Header's text div ends here-->
+      <footer class="mb-0">
+        <div class="container bg-white mt-5">
+          <div class="row mx-auto text-center">
+            <div class="col-md-3">
+              <span class="font-weight-bold" style="font-size: 200%;">1</span>
+              <span>Your stay</span>
+            </div>
+            <div class="col-md-3">
+              <span class="font-weight-bold" style="font-size: 200%;">2</span>
+              <span>Your room</span>
+            </div>
+            <div class="col-md-3">
+              <span class="font-weight-bold" style="font-size: 200%;">3</span>
+              <span>Your details</span>
+            </div>
+            <div class="col-md-3">
+              <span class="font-weight-bold" style="font-size: 200%;">4</span>
+              <span>Confirm</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- header contents ends here -->
+    </header>
+    <!-- header ends here -->
+    <section id="first" class="bg-light">
+      <div class="container">
+        <div class="row py-5 mx-auto text-darkblue">
+          <div class="col-md-10 my-2">
+            <h3>Choose your stay</h3>
+            <div
+              class="aa-title-underline bg-darkblue"
+              style="margin: 0;"
+            ></div>
+          </div>
+          <div class="col-md-10 my-2">
+            <form>
+              <div class="form-group">
+                <label for="sel1" class="bg-darkblue text-white p-2 mb-0"
+                  >Your Hotel</label
+                >
+                <select
+                  class="form-control border border-dark rounded-0"
+                  id="sel1"
+                >
+                  <option>Luxuria Hotel, Paris</option>
+                  <option>Luxuria Hotel, London</option>
+                  <option>Luxuria Hotel, New York</option>
+                  <option>Luxuria Hotel, Las Vegas</option>
+                </select>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row text-darkblue">
+          <div
+            class="col-md-3 border border-secondary rounded-0 m-2 text-center p-0 mx-auto"
+          >
+            <div
+              class="cursor bg-darkblue mx-0 mb-2 py-3 text-white font-weight-bold"
+            >
+              CKECK IN
+            </div>
+            <p>JULY</p>
+            <p class="display-2">18</p>
+            <p>2020</p>
+          </div>
+          <div
+            class="col-md-3 border border-secondary rounded-0 m-2 text-center p-0 mx-auto"
+          >
+            <div
+              class="cursor bg-darkblue mx-0 mb-2 py-3 text-white font-weight-bold"
+            >
+              CKECK OUT
+            </div>
+            <p>JULY</p>
+            <p class="display-2">18</p>
+            <p>2020</p>
+          </div>
+          <div
+            class="col-md-3 border border-secondary rounded-0 m-2 text-center p-0 mx-auto"
+          >
+            <div
+              id="check-date"
+              class="cursor bg-darkblue mx-0 mb-2 py-3 text-white font-weight-bold"
+            >
+              GUESTS
+            </div>
+            <p id="add"><i class="fas fa-plus fa-2x cursor"></i></p>
+            <p id="guests" class="display-2">1</p>
+            <p id="notification" class="d-none"></p>
+            <p id="subtract"><i class="fas fa-minus fa-2x cursor"></i></p>
+          </div>
+          <div class="col-12 text-center my-5 cursor">
+            <h5>Add another room <i class="fas fa-plus"></i></h5>
+          </div>
+          <div
+            class="col-12 btn btn-d-block bg-darkblue text-uppercase text-white cursor"
+          >
+            check availability
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+    <footer id="footer" class="bg-light text-dark">
+      <div class="container-fluid">
+        <div class="row py-5">
+          <div
+            class="aa-title-underline bg-dark"
+            style="margin: auto; width: 90%;"
+          ></div>
+          <div class="col-lg-11 mt-3 mx-auto d-md-flex">
+            <div class="col-md-3">
+              <h3>Luxuria Hotels</h3>
+              <ul class="list-inline">
+                <li class="li-inline-item mb-2">Luxuria Hotel, Paris</li>
+                <li class="li-inline-item mb-2">Luxuria Hotel, London</li>
+                <li class="li-inline-item mb-2">Luxuria Hotel, New York</li>
+                <li class="li-inline-item mb-2">Luxuria Hotel, Las Vegas</li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h3>Discovery</h3>
+              <ul class="list-inline">
+                <li class="li-inline-item mb-2">Explore Paris</li>
+                <li class="li-inline-item mb-2">Events/Meeting at Luxuria</li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h3>About Us</h3>
+              <ul class="list-inline">
+                <li class="li-inline-item mb-2">About</li>
+                <li class="li-inline-item mb-2">FAQ</li>
+                <li class="li-inline-item mb-2">Contact</li>
+                <li class="li-inline-item mb-2">Jobs</li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <div class="text-center">
+                <img src="/assets/Logo/Logo-01.png" alt="" width="50%" />
+                <div
+                  class="aa-title-underline bg-dark"
+                  style="margin: auto; width: 50%;"
+                ></div>
+                <div class="links mt-1">
+                  <div>Follow Us</div>
+                  <a href=""
+                    ><i class="fab fa-facebook mx-1 aa-text-luxuria"></i
+                  ></a>
+                  <a href=""
+                    ><i class="fab fa-twitter mx-1 aa-text-luxuria"></i
+                  ></a>
+                  <a href=""
+                    ><i class="fab fa-instagram mx-1 aa-text-luxuria"></i
+                  ></a>
+                  <a href=""
+                    ><i class="fab fa-linkedin mx-1 aa-text-luxuria"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="aa-title-underline bg-dark"
+            style="margin: auto; width: 90%;"
+          ></div>
+          <div
+            class="w-100 bg-darkblue my-2 text-center text-white text-uppercase"
+          >
+            terms & conditions
+          </div>
+          <div class="col-10 mx-auto mt-3">
+            &copy Cielo 2020 Developed by <a href="">Ali A.T.</a>
+          </div>
+        </div>
+      </div>
+      <!-- footer goes here -->
+    </footer>
+    <!-- end of footer section -->
+    <!-- jQuery -->
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- my script -->
+    <script src="aa-script.js"></script>
+  </body>
+</html>
